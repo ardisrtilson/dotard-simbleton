@@ -1,0 +1,18 @@
+.h1{
+    font-size: large;
+}
+.h2{
+    font-size: medium;
+}
+
+.business__name {
+    font-size: large;
+}
+
+.business__type {
+    font-size: small;
+}
+
+.info__divider{
+    border: dotted 1px;
+}
