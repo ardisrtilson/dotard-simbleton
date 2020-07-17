@@ -10,6 +10,16 @@ export const BusinessHTML = (businessObject) => {
     `
 }
 
+export const agentHTML = (businessObject) => {
+    return `
+        <section class="business">
+        <fieldset>
+            <h2 class="business__type">${businessObject.nameFirst} ${businessObject.nameLast}</h2>
+            </fieldset>
+            </section>
+    `
+}
+
 export const useBusinesses = () => {
     return businesses.slice()
 }
