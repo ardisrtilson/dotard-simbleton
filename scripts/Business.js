@@ -14,7 +14,8 @@ export const agentHTML = (businessObject) => {
     return `
         <section class="business">
         <fieldset>
-            <h2 class="business__type">${businessObject.nameFirst} ${businessObject.nameLast}</h2>
+            <h2 class="business__type">${businessObject.agentName} </h2>
+            <h2 class="business__type">${businessObject.company} ${businessObject.phoneNumber}</h2>
             </fieldset>
             </section>
     `
