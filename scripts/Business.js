@@ -20,7 +20,3 @@ export const agentHTML = (businessObject) => {
             </section>
     `
 }
-
-export const useBusinesses = () => {
-    return businesses.slice()
-}
